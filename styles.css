@@ -1,0 +1,164 @@
+/* DESKTOP */
+/* Main body funcitonalities */
+@media screen and (max-width: 3880px)
+{
+    body
+    {
+        background-color: #e0f0e6;
+        font-family: karla;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container
+    {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .main
+    {
+        background-color: white;
+        width: 40%;
+        padding: 20px 30px 40px 40px;
+        border-radius: 9px;
+    }
+    /* Managing the form */
+    
+    .main input, .texarea
+    {
+        border: 1px solid rgb(84, 84, 84);
+        padding: 13px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    .main div label 
+    {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    .main form div
+    {
+        margin-bottom: 10px;
+    }
+    
+    .query-type
+    {
+        margin-top: 25px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .submitBtn
+    {
+        background-color: #0c7d69;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 12px;
+    }
+    
+    .textarea
+    {
+        resize: none;
+        height: 100px;
+    }
+    
+    /* Properties */
+    .title
+    {
+        font-weight: bold;
+        color: hsl(187, 24%, 22%);
+    }
+    
+    .block
+    {
+        display: block;
+    }
+    
+    .flex
+    {
+        display: flex;
+    }
+    
+    .full-width
+    {
+        width: 100%;
+    }
+    .checkboxContainer
+    {
+        display: block;
+        border: 1px solid;
+        border-radius: 5px;
+        accent-color: hsl(169, 82%, 27%);   
+        
+    }
+
+    .grid-1fr-1fr
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+        
+    }
+    .consent
+    {
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+    }
+    input[type="checkbox"]
+    {
+        accent-color: hsl(169, 82%, 27%);
+    }
+}
+
+/* PHONES */
+@media only screen and (max-width: 732px)
+{
+    .grid-1fr-1fr
+    {
+        display: block;
+    }   
+    .attribution
+    {
+        display: none;
+    }
+    .main
+    {
+        background-color: white;
+        width: 70%;
+        padding: 10px 40px 10px 40px;
+        border-radius: 9px;
+    }
+    .container
+    {
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+}
+
+/* Hover */
+
+    .main input:hover
+    {
+        border: 1px solid hsl(169, 82%, 27%);
+        cursor: pointer;
+    }
+    .textArea:hover
+    {
+        border: 1px solid hsl(169, 82%, 27%);
+        cursor: pointer; 
+    }
+    .submitBtn:hover
+    {
+        background-color: hsl(187, 24%, 22%);
+        cursor: pointer;
+    }
+    .checkboxContainer:hover
+    {
+        border: 1px solid hsl(169, 82%, 27%);
+        cursor: pointer;
+    }
+
+/* Active */
