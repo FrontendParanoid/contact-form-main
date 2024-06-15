@@ -13,7 +13,7 @@
     {
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 98vh;
     }
     .main
     {
@@ -128,8 +128,16 @@
     }
 }
 
+@media only screen and (max-width: 768px) 
+{
+    .main
+    {
+        width: 500px;
+    }
+}
+
 /* PHONES */
-@media only screen and (max-width: 732px)
+@media only screen and (max-width: 400px)
 {
     .grid-1fr-1fr
     {
@@ -142,7 +150,7 @@
     .main
     {
         background-color: white;
-        width: 70%;
+        width: 80%;
         padding: 10px 40px 10px 40px;
         border-radius: 9px;
     }
